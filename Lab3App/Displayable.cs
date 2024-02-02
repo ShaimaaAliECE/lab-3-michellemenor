@@ -1,10 +1,9 @@
 ﻿using System;
 namespace Lab3App
 {
-    public class Displayable
+    public interface Displayable
     {
-        public Displayable()
-        {
-        }
+        // Outputs the description of the object
+        void Display();
     }
 }
